@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/background.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+
+nav {
+    text-align: center;
+    margin-top: -28px;
+}
+
+nav a{
+    font-family:sans-serif;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+nav li{
+    display: inline-block;
+    width: 180px;
+    height: auto;
+    padding: 5px 10px;
+    background-color: #2175bc;
+    border: 1px solid #2175bc;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover{
+    background-color: #2586d7;
+    color: #fff;
+}
+
+nav li>ul{
+    margin-top: -3px;
+    display: none;
+}
+
+nav li:hover>ul{
+    background-color: #2586d7;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+topright{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.inner-image{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    height: 160px;
+    opacity: 50%;
+}
+
+/*==Lista de pacientes==*/
+#container h1{
+    margin-left: 6%;
+    font-size: 35px;
+    display: inline-block;
+    font-family: Arial;
+    margin-top: 10px;
+}
+
+.btn_new{
+    font-family: Arial;
+    text-decoration: none;
+    display: inline-block;
+    background: #239baa;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 12pt;
+    font-family: Arial;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+table th{
+    text-align: center;
+    padding: 10px;
+    background: #3d7ba8;
+    color: #fff;
+}
+
+table tr:nth-child(odd){
+    background: #fff;
+}
+
+table tr:nth-child(even){
+    background: #9AD1ED;
+}
+
+table td{
+    padding: 10px;
+}
+
+.link_edit{
+    color: #0ca4ce;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link_remove{
+    color: #f26b6b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.paginador ul{
+    list-style: none;
+    background: #fff;
+    margin-top: 15px;;
+    margin-left: 44%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: flex-end;
+}
+
+.paginador a, .pageSelected{
+    color: #428bca;
+    border: 1px solid#ddd;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+}
+
+.paginador a:hover{
+    background: #ddd;
+}
+
+.paginador a{
+    text-decoration: none;
+}
+
+.pageSelected{
+    color: #fff;
+    background: #428bca;
+    border: 1px solid #428bca;
+}
+
+.form_search{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: right;
+    background: initial;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.form_search .btn_search{
+    background: #1faac8;
+    color: #fff;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.link_crear {
+    color: #B91C9A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link_gen{
+    color: #B91C9A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link_cita{
+    color: #E56600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link_list_inform {
+    color: #22B94B;
+    font-weight: bold;
+    text-decoration: none;
+}

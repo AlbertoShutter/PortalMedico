@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/background.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+
+nav {
+    text-align: center;
+    margin-top: -28px;
+}
+
+nav a{
+    font-family:sans-serif;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+nav li{
+    display: inline-block;
+    width: 180px;
+    height: auto;
+    padding: 5px 10px;
+    background-color: #2175bc;
+    border: 1px solid #2175bc;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover{
+    background-color: #2586d7;
+    color: #fff;
+}
+
+nav li>ul{
+    margin-top: -3px;
+    display: none;
+}
+
+nav li:hover>ul{
+    background-color: #2586d7;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+topright{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.inner-image{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    height: 160px;
+    opacity: 50%;
+}
+
+.form_register {
+    width: 450px;
+    margin: auto;
+}
+
+.form_register h1 {
+    color: #2D2F36;
+}
+
+hr {
+    border: 0;
+    background: #ccc;
+    height: 1px;
+    margin: 10px 0;
+    display: block;
+}
+
+form {
+    background: #fff;
+    margin: auto;
+    padding: 20px 50px;
+    border: 1px solid #d1d1d1;
+}
+
+label {
+    display: block;
+    font-size: 12pt;
+    margin: 15px auto 5px auto;
+}
+
+input,select {
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+    padding: 5px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+}
+
+.btn_save {
+    font-size: 12pt;
+    background: #12a4c6;
+    padding: 12px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+.alert {
+    width: 100%;
+    background: #66e07d66;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+
+.msg_error {
+    color: #e65656;
+}
+
+.msg_save {
+    color: #126e00;
+}
+
+.alert p {
+    padding: 10px;
+}
+
+.noItemOne option:first-child{
+    display: none;
+}
+
+.checkbox {
+    position: relative;
+    top: -35px;
+    left: -50px;
+    margin-bottom: -25px;
+}
+
+#label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Provincia {
+    display: none;
+}
+
+#Localidad {
+    display: none;
+}
+
+.form_register {
+    margin-top: 2%;
+}

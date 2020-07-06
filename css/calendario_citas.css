@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/background.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+
+nav {
+    text-align: center;
+    margin-top: -28px;
+}
+
+nav a{
+    font-family:sans-serif;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+nav li{
+    display: inline-block;
+    width: 180px;
+    height: auto;
+    padding: 5px 10px;
+    background-color: #2175bc;
+    border: 1px solid #2175bc;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover{
+    background-color: #2586d7;
+    color: #fff;
+}
+
+nav li>ul{
+    margin-top: -3px;
+    display: none;
+}
+
+nav li:hover>ul{
+    background-color: #2586d7;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+topright{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.inner-image{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    height: 160px;
+    opacity: 50%;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+form{
+    width: 1100px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 22%;
+    background-color: #ccc;
+    text-align: center;
+}
+
+form label{
+    margin-left: 40px;
+    margin-right: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.alert {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    background: #66e07d66;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+
+.msg_error {
+    color: #e65656;
+}
+
+.msg_save {
+    color: #126e00;
+}
+
+.alert p {
+    padding: 10px;
+}
+
+.noItemOne option:first-child{
+    display: none;
+}
+
+.btn_new{
+    margin-top: 2%;
+    text-decoration: none;
+    display: inline-block;
+    background: #239baa;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 46%;
+}

@@ -1,0 +1,22 @@
+.btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #92c7eb;
+    background-image: url("http://res.freestockphotos.biz/pictures/15/15107-illustration-of-a-red-close-button-pv.png");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 40px;
+    border-radius: 900px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    width: 50px;
+    height: 50px;
+}
